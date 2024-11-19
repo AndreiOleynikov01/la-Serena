@@ -4,12 +4,12 @@ import java.util.concurrent.TimeUnit;
 public class Main {
     public static void main(String[] args) {
         ScheduledExecutorService myPool = Executors.newScheduledThreadPool(1);
-        myPool.scheduleAtFixedRate(new Runnable() {
+        myPool.schedule(new Runnable() {
             @Override
             public void run() {
                 System.out.println("Hello World!");
             }
-        }, 0, 5, TimeUnit.SECONDS);
+        }, 5, TimeUnit.SECONDS);
         myPool.scheduleAtFixedRate(new Runnable() {
             @Override
             public void run() {

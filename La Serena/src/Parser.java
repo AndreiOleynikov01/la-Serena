@@ -1,8 +1,7 @@
 public class Parser {
-    private String file;
+    private final String file;
     Parser(String file)
     {
         this.file = file;
     }
-
 }
