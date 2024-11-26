@@ -5,7 +5,6 @@ import com.jsyn.unitgen.SineOscillator;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
